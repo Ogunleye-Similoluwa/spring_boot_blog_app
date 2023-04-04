@@ -12,11 +12,11 @@ import java.time.LocalDateTime;
 @Getter
 public class Blog {
     @Id
-   @GeneratedValue(strategy = GenerationType.AUTO)
+   @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
     private String  description;
-//    private LocalDateTime date;
+    private LocalDateTime date = LocalDateTime.now();
 
 
 }

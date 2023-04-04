@@ -36,7 +36,6 @@ public class BlogServiceImpl implements BlogService{
         blog.setTitle(foundBlog.getTitle());
         blog.setDescription(foundBlog.getDescription());
         blog.setId(foundBlog.getId());
-//        blog.setDate(LocalDateTime.now());
     }
 
     @Override
